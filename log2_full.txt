@@ -1,0 +1,206 @@
+2021-04-21 10:05:55.087516: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/ros/noetic/lib::/opt/gurobi903/linux64/lib
+2021-04-21 10:05:55.087547: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Number of images in folder training_files/train as expected.
+Number of images in folder training_files/val as expected.
+Number of images in folder training_files/test as expected.
+
+Creating data lists... this may take some time.
+
+There are 1470 images in the training data.
+There are 210 images in the validation data.
+There are 420 images in the test test data.
+JSONS containing lists of Train, Valid and Test images have been saved to './'
+
+Training Network epochs:   0%|                                                                                                                                                  | 0/31 [00:00<?, ? epoch/s]
+Epoch: [0][0/92]----Batch Time 8.047 (8.047)----Data Time 0.120 (0.120)----Cont. Loss 0.5169 (0.5169)----Adv. Loss 0.7205 (0.7205)----Disc. Loss 1.4133 (1.4133)                | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [0][46/92]----Batch Time 8.003 (8.066)----Data Time 0.005 (0.006)----Cont. Loss 0.4414 (0.4611)----Adv. Loss 8.9664 (6.9046)----Disc. Loss 0.0072 (1.9901)      | 46/92 [06:11<05:58,  7.78s/ batch]
+Training Network epochs:   3%|████▎                                                                                                                                  | 1/31 [12:18<6:09:08, 738.27s/ epoch]
+Epoch: [1][0/92]----Batch Time 9.729 (9.729)----Data Time 0.366 (0.366)----Cont. Loss 0.4794 (0.4794)----Adv. Loss 7.0006 (7.0006)----Disc. Loss 0.1787 (0.1787)                | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [1][46/92]----Batch Time 7.630 (8.147)----Data Time 0.003 (0.011)----Cont. Loss 0.3784 (0.4321)----Adv. Loss 10.6389 (8.5094)----Disc. Loss 0.1711 (0.2295)     | 46/92 [06:14<05:53,  7.68s/ batch]
+Training Network epochs:   6%|████████▋                                                                                                                              | 2/31 [24:39<5:57:33, 739.78s/ epoch]
+Epoch: [2][0/92]----Batch Time 9.449 (9.449)----Data Time 0.323 (0.323)----Cont. Loss 0.3691 (0.3691)----Adv. Loss 5.5560 (5.5560)----Disc. Loss 0.7429 (0.7429)                | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [2][46/92]----Batch Time 8.112 (8.115)----Data Time 0.005 (0.010)----Cont. Loss 0.4193 (0.4137)----Adv. Loss 2.0390 (6.6199)----Disc. Loss 3.1878 (0.5257)      | 46/92 [06:12<06:11,  8.08s/ batch]
+Training Network epochs:  10%|█████████████                                                                                                                          | 3/31 [37:03<5:46:13, 741.92s/ epoch]
+Epoch: [3][0/92]----Batch Time 9.637 (9.637)----Data Time 0.338 (0.338)----Cont. Loss 0.5276 (0.5276)----Adv. Loss 6.4975 (6.4975)----Disc. Loss 0.2972 (0.2972)                | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [3][46/92]----Batch Time 8.040 (8.088)----Data Time 0.004 (0.010)----Cont. Loss 0.4079 (0.4312)----Adv. Loss 10.0428 (8.8634)----Disc. Loss 0.0019 (0.0681)     | 46/92 [06:11<06:09,  8.02s/ batch]
+Training Network epochs:  13%|█████████████████▍                                                                                                                     | 4/31 [49:27<5:34:13, 742.71s/ epoch]
+Epoch: [4][0/92]----Batch Time 9.504 (9.504)----Data Time 0.338 (0.338)----Cont. Loss 0.4546 (0.4546)----Adv. Loss 17.9467 (17.9467)----Disc. Loss 0.0003 (0.0003)              | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [4][46/92]----Batch Time 8.081 (8.113)----Data Time 0.005 (0.010)----Cont. Loss 0.3482 (0.4324)----Adv. Loss 19.8726 (16.1792)----Disc. Loss 0.0000 (0.0773)    | 46/92 [06:12<06:10,  8.05s/ batch]
+Training Network epochs:  16%|█████████████████████▍                                                                                                               | 5/31 [1:01:53<5:22:17, 743.76s/ epoch]
+Epoch: [5][0/92]----Batch Time 10.116 (10.116)----Data Time 0.331 (0.331)----Cont. Loss 0.3858 (0.3858)----Adv. Loss 10.4437 (10.4437)----Disc. Loss 0.0004 (0.0004)            | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [5][46/92]----Batch Time 8.105 (8.130)----Data Time 0.004 (0.010)----Cont. Loss 0.3682 (0.4356)----Adv. Loss 23.2029 (14.1856)----Disc. Loss 0.0000 (0.3867)    | 46/92 [06:13<06:16,  8.18s/ batch]
+Training Network epochs:  19%|█████████████████████████▋                                                                                                           | 6/31 [1:14:18<5:10:06, 744.27s/ epoch]
+Epoch: [6][0/92]----Batch Time 9.564 (9.564)----Data Time 0.320 (0.320)----Cont. Loss 0.4426 (0.4426)----Adv. Loss 23.9617 (23.9617)----Disc. Loss 0.0002 (0.0002)              | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [6][46/92]----Batch Time 8.148 (8.106)----Data Time 0.003 (0.010)----Cont. Loss 0.5452 (0.4028)----Adv. Loss 18.5163 (16.4656)----Disc. Loss 0.0000 (0.0052)    | 46/92 [06:12<06:10,  8.05s/ batch]
+
+Average metric in validation: rmse -> 98.0707811839078                                                                                                                                                     
+Average metric in validation: sre -> 1.2418265979715601
+Average metric in validation: uqi -> 0.007392675670676648
+Training Network epochs:  23%|██████████████████████████████                                                                                                       | 7/31 [1:28:53<5:14:49, 787.06s/ epoch]
+Epoch: [7][0/92]----Batch Time 10.557 (10.557)----Data Time 0.341 (0.341)----Cont. Loss 0.5013 (0.5013)----Adv. Loss 5.4695 (5.4695)----Disc. Loss 0.0133 (0.0133)              | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [7][46/92]----Batch Time 9.039 (9.097)----Data Time 0.003 (0.010)----Cont. Loss 0.5010 (0.4223)----Adv. Loss 8.7805 (8.3049)----Disc. Loss 0.0012 (0.0159)      | 46/92 [06:58<06:55,  9.04s/ batch]
+Training Network epochs:  26%|██████████████████████████████████▎                                                                                                  | 8/31 [1:42:24<5:04:41, 794.83s/ epoch]
+DECAYING learning rate.                                                                                                                                                                                    
+The new learning rate is 0.000500
+
+
+DECAYING learning rate.
+The new learning rate is 0.000500
+
+
+Epoch: [8][0/92]----Batch Time 9.525 (9.525)----Data Time 0.327 (0.327)----Cont. Loss 0.5219 (0.5219)----Adv. Loss 17.5543 (17.5543)----Disc. Loss 0.0000 (0.0000)              | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [8][46/92]----Batch Time 8.286 (8.101)----Data Time 0.003 (0.010)----Cont. Loss 0.5390 (0.4112)----Adv. Loss 19.2438 (19.4654)----Disc. Loss 0.0207 (0.0512)    | 46/92 [06:12<06:12,  8.09s/ batch]
+Training Network epochs:  29%|██████████████████████████████████████▌                                                                                              | 9/31 [1:54:38<4:44:27, 775.80s/ epoch]
+Epoch: [9][0/92]----Batch Time 9.007 (9.007)----Data Time 0.322 (0.322)----Cont. Loss 0.5834 (0.5834)----Adv. Loss 24.1218 (24.1218)----Disc. Loss 0.0105 (0.0105)              | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [9][46/92]----Batch Time 7.782 (7.704)----Data Time 0.004 (0.010)----Cont. Loss 0.4680 (0.4213)----Adv. Loss 0.2191 (8.5923)----Disc. Loss 3.2977 (0.8135)      | 46/92 [05:54<05:54,  7.71s/ batch]
+Training Network epochs:  32%|██████████████████████████████████████████▌                                                                                         | 10/31 [2:06:26<4:24:08, 754.70s/ epoch]
+Epoch: [10][0/92]----Batch Time 9.504 (9.504)----Data Time 0.325 (0.325)----Cont. Loss 0.4275 (0.4275)----Adv. Loss 22.1576 (22.1576)----Disc. Loss 0.0001 (0.0001)             | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [10][46/92]----Batch Time 7.655 (7.723)----Data Time 0.004 (0.010)----Cont. Loss 0.5004 (0.4048)----Adv. Loss 8.9405 (11.8815)----Disc. Loss 0.0132 (0.5589)    | 46/92 [05:55<05:52,  7.66s/ batch]
+Training Network epochs:  35%|██████████████████████████████████████████████▊                                                                                     | 11/31 [2:18:15<4:06:52, 740.62s/ epoch]
+Epoch: [11][0/92]----Batch Time 9.102 (9.102)----Data Time 0.318 (0.318)----Cont. Loss 0.4172 (0.4172)----Adv. Loss 11.0385 (11.0385)----Disc. Loss 0.0006 (0.0006)             | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [11][46/92]----Batch Time 7.656 (7.736)----Data Time 0.003 (0.010)----Cont. Loss 0.3837 (0.3937)----Adv. Loss 8.3720 (9.4387)----Disc. Loss 0.0015 (0.0025)     | 46/92 [05:55<05:55,  7.72s/ batch]
+Training Network epochs:  39%|███████████████████████████████████████████████████                                                                                 | 12/31 [2:30:04<3:51:31, 731.11s/ epoch]
+Epoch: [12][0/92]----Batch Time 9.160 (9.160)----Data Time 0.320 (0.320)----Cont. Loss 0.3959 (0.3959)----Adv. Loss 13.3340 (13.3340)----Disc. Loss 0.0009 (0.0009)             | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [12][46/92]----Batch Time 7.748 (7.746)----Data Time 0.005 (0.010)----Cont. Loss 0.3430 (0.3751)----Adv. Loss 8.9899 (10.1607)----Disc. Loss 0.0096 (0.0046)    | 46/92 [05:56<05:53,  7.68s/ batch]
+Training Network epochs:  42%|███████████████████████████████████████████████████████▎                                                                            | 13/31 [2:41:55<3:37:30, 725.03s/ epoch]
+Epoch: [13][0/92]----Batch Time 9.028 (9.028)----Data Time 0.345 (0.345)----Cont. Loss 0.3594 (0.3594)----Adv. Loss 19.8777 (19.8777)----Disc. Loss 0.0000 (0.0000)             | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [13][46/92]----Batch Time 7.692 (7.680)----Data Time 0.003 (0.010)----Cont. Loss 0.4323 (0.3514)----Adv. Loss 19.3850 (17.8105)----Disc. Loss 0.0001 (0.1424)   | 46/92 [05:52<05:54,  7.70s/ batch]
+
+Average metric in validation: rmse -> 68.66520344197919                                                                                                                                                    
+Average metric in validation: sre -> 4.9403222166725
+Average metric in validation: uqi -> 0.2316877767443657
+Training Network epochs:  45%|███████████████████████████████████████████████████████████▌                                                                        | 14/31 [2:55:17<3:31:59, 748.18s/ epoch]
+Epoch: [14][0/92]----Batch Time 9.082 (9.082)----Data Time 0.344 (0.344)----Cont. Loss 0.2682 (0.2682)----Adv. Loss 3.3382 (3.3382)----Disc. Loss 0.7080 (0.7080)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [14][46/92]----Batch Time 7.736 (7.703)----Data Time 0.005 (0.010)----Cont. Loss 0.4378 (0.3282)----Adv. Loss 11.2418 (6.4603)----Disc. Loss 0.1054 (0.7000)    | 46/92 [05:53<05:53,  7.69s/ batch]
+Training Network epochs:  48%|███████████████████████████████████████████████████████████████▊                                                                    | 15/31 [3:07:05<3:16:18, 736.17s/ epoch]
+Epoch: [15][0/92]----Batch Time 9.426 (9.426)----Data Time 0.330 (0.330)----Cont. Loss 0.3803 (0.3803)----Adv. Loss 6.2650 (6.2650)----Disc. Loss 0.0385 (0.0385)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [15][46/92]----Batch Time 7.705 (7.713)----Data Time 0.005 (0.010)----Cont. Loss 0.3221 (0.3054)----Adv. Loss 7.5475 (8.2503)----Disc. Loss 0.0288 (0.5630)     | 46/92 [05:54<05:52,  7.65s/ batch]
+Training Network epochs:  52%|████████████████████████████████████████████████████████████████████▏                                                               | 16/31 [3:18:54<3:01:57, 727.84s/ epoch]
+DECAYING learning rate.                                                                                                                                                                                    
+The new learning rate is 0.000250
+
+
+DECAYING learning rate.
+The new learning rate is 0.000250
+
+
+Epoch: [16][0/92]----Batch Time 9.139 (9.139)----Data Time 0.347 (0.347)----Cont. Loss 0.3220 (0.3220)----Adv. Loss 0.3993 (0.3993)----Disc. Loss 2.4056 (2.4056)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [16][46/92]----Batch Time 7.638 (7.721)----Data Time 0.004 (0.010)----Cont. Loss 0.1953 (0.2554)----Adv. Loss 6.8501 (4.3329)----Disc. Loss 0.1492 (0.6958)     | 46/92 [05:54<05:51,  7.64s/ batch]
+Training Network epochs:  55%|████████████████████████████████████████████████████████████████████████▍                                                           | 17/31 [3:30:41<2:48:24, 721.78s/ epoch]
+Epoch: [17][0/92]----Batch Time 8.945 (8.945)----Data Time 0.311 (0.311)----Cont. Loss 0.1718 (0.1718)----Adv. Loss 2.6000 (2.6000)----Disc. Loss 0.1666 (0.1666)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [17][46/92]----Batch Time 7.552 (8.061)----Data Time 0.005 (0.010)----Cont. Loss 0.2294 (0.2294)----Adv. Loss 1.6828 (4.1002)----Disc. Loss 0.2736 (0.5151)     | 46/92 [06:11<05:55,  7.73s/ batch]
+Training Network epochs:  58%|████████████████████████████████████████████████████████████████████████████▋                                                       | 18/31 [3:42:45<2:36:31, 722.43s/ epoch]
+Epoch: [18][0/92]----Batch Time 9.459 (9.459)----Data Time 0.338 (0.338)----Cont. Loss 0.1877 (0.1877)----Adv. Loss 3.1542 (3.1542)----Disc. Loss 0.1197 (0.1197)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [18][46/92]----Batch Time 7.968 (8.029)----Data Time 0.005 (0.010)----Cont. Loss 0.2572 (0.2296)----Adv. Loss 3.3998 (4.2789)----Disc. Loss 0.0558 (0.2832)     | 46/92 [06:09<06:11,  8.09s/ batch]
+Training Network epochs:  61%|████████████████████████████████████████████████████████████████████████████████▉                                                   | 19/31 [3:55:07<2:25:37, 728.15s/ epoch]
+Epoch: [19][0/92]----Batch Time 9.468 (9.468)----Data Time 0.327 (0.327)----Cont. Loss 0.2630 (0.2630)----Adv. Loss 5.6578 (5.6578)----Disc. Loss 0.0098 (0.0098)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [19][46/92]----Batch Time 8.063 (8.074)----Data Time 0.003 (0.010)----Cont. Loss 0.2523 (0.2217)----Adv. Loss 4.9881 (4.5522)----Disc. Loss 0.0457 (0.5647)     | 46/92 [06:11<06:08,  8.02s/ batch]
+Training Network epochs:  65%|█████████████████████████████████████████████████████████████████████████████████████▏                                              | 20/31 [4:07:30<2:14:19, 732.64s/ epoch]
+Epoch: [20][0/92]----Batch Time 9.943 (9.943)----Data Time 0.314 (0.314)----Cont. Loss 0.1992 (0.1992)----Adv. Loss 0.4785 (0.4785)----Disc. Loss 0.9974 (0.9974)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [20][46/92]----Batch Time 8.161 (8.101)----Data Time 0.005 (0.010)----Cont. Loss 0.1467 (0.2028)----Adv. Loss 3.8387 (4.2655)----Disc. Loss 0.0506 (0.3253)     | 46/92 [06:12<06:10,  8.05s/ batch]
+
+Average metric in validation: rmse -> 62.35267394469671                                                                                                                                                    
+Average metric in validation: sre -> 5.839591941308034
+Average metric in validation: uqi -> 0.2722403236797878
+Training Network epochs:  68%|█████████████████████████████████████████████████████████████████████████████████████████▍                                          | 21/31 [4:21:32<2:07:35, 765.52s/ epoch]
+Epoch: [21][0/92]----Batch Time 9.404 (9.404)----Data Time 0.331 (0.331)----Cont. Loss 0.1180 (0.1180)----Adv. Loss 6.7573 (6.7573)----Disc. Loss 0.0021 (0.0021)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [21][46/92]----Batch Time 7.928 (8.031)----Data Time 0.004 (0.010)----Cont. Loss 0.2373 (0.1925)----Adv. Loss 3.4411 (5.6423)----Disc. Loss 0.2644 (0.4882)     | 46/92 [06:09<06:08,  8.00s/ batch]
+Training Network epochs:  71%|█████████████████████████████████████████████████████████████████████████████████████████████▋                                      | 22/31 [4:33:50<1:53:35, 757.32s/ epoch]
+Epoch: [22][0/92]----Batch Time 9.496 (9.496)----Data Time 0.290 (0.290)----Cont. Loss 0.1865 (0.1865)----Adv. Loss 8.1623 (8.1623)----Disc. Loss 0.0145 (0.0145)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [22][46/92]----Batch Time 8.043 (8.071)----Data Time 0.004 (0.009)----Cont. Loss 0.2505 (0.1951)----Adv. Loss 0.9690 (5.5481)----Disc. Loss 0.5463 (0.4263)     | 46/92 [06:11<06:10,  8.06s/ batch]
+Training Network epochs:  74%|█████████████████████████████████████████████████████████████████████████████████████████████████▉                                  | 23/31 [4:46:10<1:40:16, 752.09s/ epoch]
+DECAYING learning rate.                                                                                                                                                                                    
+The new learning rate is 0.000125
+
+
+DECAYING learning rate.
+The new learning rate is 0.000125
+
+
+Epoch: [23][0/92]----Batch Time 9.406 (9.406)----Data Time 0.339 (0.339)----Cont. Loss 0.2036 (0.2036)----Adv. Loss 8.7538 (8.7538)----Disc. Loss 0.0015 (0.0015)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [23][46/92]----Batch Time 7.981 (8.040)----Data Time 0.004 (0.010)----Cont. Loss 0.1496 (0.1798)----Adv. Loss 6.1182 (7.1075)----Disc. Loss 0.0117 (0.0956)     | 46/92 [06:09<06:09,  8.03s/ batch]
+Training Network epochs:  77%|██████████████████████████████████████████████████████████████████████████████████████████████████████▏                             | 24/31 [4:58:30<1:27:18, 748.32s/ epoch]
+Epoch: [24][0/92]----Batch Time 9.489 (9.489)----Data Time 0.327 (0.327)----Cont. Loss 0.1911 (0.1911)----Adv. Loss 8.7797 (8.7797)----Disc. Loss 0.6132 (0.6132)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [24][46/92]----Batch Time 8.097 (8.123)----Data Time 0.005 (0.010)----Cont. Loss 0.1694 (0.1780)----Adv. Loss 5.1818 (4.5280)----Disc. Loss 0.0067 (0.1712)     | 46/92 [06:13<06:10,  8.05s/ batch]
+Training Network epochs:  81%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▍                         | 25/31 [5:10:53<1:14:42, 747.02s/ epoch]
+Epoch: [25][0/92]----Batch Time 9.907 (9.907)----Data Time 0.339 (0.339)----Cont. Loss 0.1870 (0.1870)----Adv. Loss 3.4823 (3.4823)----Disc. Loss 0.0396 (0.0396)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [25][46/92]----Batch Time 8.147 (8.124)----Data Time 0.003 (0.010)----Cont. Loss 0.1896 (0.1744)----Adv. Loss 7.1132 (5.7347)----Disc. Loss 0.0013 (0.0328)     | 46/92 [06:13<06:09,  8.04s/ batch]
+Training Network epochs:  84%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                     | 26/31 [5:23:18<1:02:11, 746.30s/ epoch]
+Epoch: [26][0/92]----Batch Time 9.486 (9.486)----Data Time 0.315 (0.315)----Cont. Loss 0.1595 (0.1595)----Adv. Loss 2.9319 (2.9319)----Disc. Loss 0.0716 (0.0716)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [26][46/92]----Batch Time 8.044 (8.112)----Data Time 0.004 (0.010)----Cont. Loss 0.1921 (0.1635)----Adv. Loss 7.0827 (6.1137)----Disc. Loss 0.0019 (0.1432)     | 46/92 [06:12<06:10,  8.06s/ batch]
+Training Network epochs:  87%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                 | 27/31 [5:35:43<49:43, 745.77s/ epoch]
+Epoch: [27][0/92]----Batch Time 9.432 (9.432)----Data Time 0.300 (0.300)----Cont. Loss 0.1611 (0.1611)----Adv. Loss 6.6367 (6.6367)----Disc. Loss 0.0020 (0.0020)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [27][46/92]----Batch Time 8.047 (8.102)----Data Time 0.003 (0.009)----Cont. Loss 0.1248 (0.1799)----Adv. Loss 7.5569 (6.5606)----Disc. Loss 0.0008 (0.0921)     | 46/92 [06:12<06:11,  8.07s/ batch]
+
+Average metric in validation: rmse -> 57.7773429171191                                                                                                                                                     
+Average metric in validation: sre -> 6.496177521359493
+Average metric in validation: uqi -> 0.2946147546172142
+Training Network epochs:  90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████             | 28/31 [5:49:49<38:48, 776.06s/ epoch]
+Epoch: [28][0/92]----Batch Time 9.577 (9.577)----Data Time 0.344 (0.344)----Cont. Loss 0.1549 (0.1549)----Adv. Loss 8.5837 (8.5837)----Disc. Loss 0.0003 (0.0003)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [28][46/92]----Batch Time 7.975 (8.110)----Data Time 0.003 (0.010)----Cont. Loss 0.1664 (0.1684)----Adv. Loss 5.7337 (6.0404)----Disc. Loss 0.1256 (0.3099)     | 46/92 [06:12<06:10,  8.05s/ batch]
+Training Network epochs:  94%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎        | 29/31 [6:02:14<25:33, 766.66s/ epoch]
+Epoch: [29][0/92]----Batch Time 9.513 (9.513)----Data Time 0.342 (0.342)----Cont. Loss 0.2375 (0.2375)----Adv. Loss 5.6607 (5.6607)----Disc. Loss 0.0056 (0.0056)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [29][46/92]----Batch Time 8.042 (8.139)----Data Time 0.003 (0.010)----Cont. Loss 0.1593 (0.1625)----Adv. Loss 6.3312 (7.2739)----Disc. Loss 0.0078 (0.0176)     | 46/92 [06:14<06:17,  8.21s/ batch]
+Training Network epochs:  97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋    | 30/31 [6:14:38<12:39, 759.85s/ epoch]
+Epoch: [30][0/92]----Batch Time 9.755 (9.755)----Data Time 0.344 (0.344)----Cont. Loss 0.1605 (0.1605)----Adv. Loss 6.2068 (6.2068)----Disc. Loss 0.0035 (0.0035)               | 0/92 [00:00<?, ? batch/s]
+
+Epoch: [30][46/92]----Batch Time 8.175 (8.095)----Data Time 0.004 (0.010)----Cont. Loss 0.1287 (0.1605)----Adv. Loss 10.6728 (8.3939)----Disc. Loss 0.0030 (0.0072)    | 46/92 [06:11<06:09,  8.03s/ batch]
+Training Network epochs: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 31/31 [6:27:01<00:00, 749.07s/ epoch]
+                                                                                                                                                                                                           
+    Running Tests on model ./checkpoint_srgan.pth (version1 29).tar
+
+
+Average metric in test: rmse -> 12.445248645771715                                                                                                                                                         
+Average metric in test: sre -> 19.680688397301203
+Average metric in test: uqi -> 0.4446806703452711
+2021-04-21 16:36:23.450991: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:36:23.452017: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/ros/noetic/lib::/opt/gurobi903/linux64/lib
+2021-04-21 16:36:23.452039: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-04-21 16:36:23.452061: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (hackelle-ThinkPad-X380-Yoga-Ubu20): /proc/driver/nvidia/version does not exist
+2021-04-21 16:36:23.452743: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-04-21 16:36:23.453338: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+
+-- Perfect metric would be: rmse=0, sre=inf, uqi=1 --
+
+
+ML img: rmse -> 6.9435664049948365
+ML img: sre -> 26.806874985002693
+ML img: uqi -> 0.04660679601965176
+
+----------
+
+BL img: rmse -> 4.335474707847205
+BL img: sre -> 31.003000836900195
+BL img: uqi -> 0.04682001506907991
+
